@@ -1,0 +1,382 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  
+}
+ 
+#menu {
+  border: 2px #000000 solid;
+  border-radius: 5px;
+  text-align: left;
+  position: fixed;
+  width: 100%;
+  background-color: #000000;
+  top: 0%;
+  left: 0%;
+  opacity: 0.9;
+  color: beige;
+  font-weight: bold;
+}
+nav ul li {
+  display: inline;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 0%;
+  padding: 2%;
+}
+#inicio {
+  margin-top: 5%;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding: 0%;
+  text-align: right;
+  background-image: url("banner-carne-churrasco.webp");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+
+}
+#bege h1 {
+  color:beige;
+  text-align: right;
+  display: inline-grid;
+  margin-right: 14%;
+  padding-top: 5%;
+  font-size: xxx-large;
+}
+
+#contato ul li {
+  list-style: none;
+  margin-top: 2%;
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  margin-right: 100px;
+  
+  
+
+}
+#horario ul li {
+  list-style: none;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  justify-content: center;
+  text-align: center;
+  line-height: 2%;
+}
+
+#menu a:link {
+  text-decoration: none;
+  color: beige;
+}
+#menu a:hover {
+  color: red;
+}
+  a:visited {
+  color: beige;
+}
+ h2, h3 {
+  padding-top: 30px;
+  text-align: center;
+  color:#fdfcfc ;
+}
+
+#bovinos {
+  padding-top: 5%;
+  
+}
+#cortesespeciais {
+  padding-top: 5%;
+}
+#cortesdiversos {
+  padding-top: 5%;
+}
+#sobre {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding: 5%;
+  text-align: left;
+  background-image: url("imag4.avif");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+.sobre2 {
+  margin-left: 50%;
+  padding-top: 5%;
+  
+}
+.texto {
+    width: 38%;
+    float: right;
+}
+#contato {
+    float: right;
+    width: 452px;
+  text-align: center;
+}
+#info {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding: 5%;
+  text-align: left;
+  background-image: url("imag4.avif");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+  
+}
+#faleconosco {
+  padding-top: 5%;
+}
+#localizacao{
+  margin-top: 5%;
+  text-align: center;
+  
+}
+
+.subtitulo {
+  text-align: right;
+  margin-right: 14%;
+  margin-top: 0;
+  font-size: large;
+}
+
+.whatsapp-button {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index:1000;
+}
+footer {
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  background-color: #050505;
+  color: beige;
+  opacity: 0.9;
+}
+#listafoto1  {
+  display: flex;
+  justify-content:space-around ;
+}
+.fotolegenda {
+  display:flex;
+  color: white;
+  
+}
+
+.painel-imagens {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+.check, .checkTodos {
+    border: 2px solid white;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+form {
+  text-align: -webkit-center;
+}
+.checkPainel {
+  width: 36%;
+  justify-content: space-between;
+}
+
+/********** DROPDOWN *********/
+
+.select {
+  height: 100%;
+  border-radius: 20px;
+  line-height: 30px;
+  color: #D8D8D8;
+}
+
+input, textarea {
+  height: 50px;
+  width: 544px;
+  background-color: #272626;
+  padding: 0px 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  color: #D8D8D8;
+  border: .5px solid #2d2d2d;
+}
+
+::-webkit-input-placeholder{
+  color: #777777;
+}
+
+input::-moz-placeholder {
+  color: #777777;
+}
+
+.dropdown {
+  position: absolute;
+  left: 32.2%;
+  text-align: left;
+  width: 35.5%;
+  background-color: #272626;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: .5px solid #2d2d2d;
+  height: 90px;
+  overflow: auto;
+  display: none;
+  transition: .5s;
+  transform: translate(0px, -10px);
+}
+
+::-webkit-scrollbar {
+  background-color: #1D1D1D;
+  width: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5B5B5B;
+  border-radius: 5px;
+}
+
+.item {
+  height: 30px;
+  padding: 0px 5px;
+  box-sizing: border-box;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: #121212;
+  padding-left: 7px;
+  transition: .3s;
+}
+#msg {
+  height: 100px;
+}
+.radioButton {
+  width: 15px;
+  height: 15px;
+  border: 2px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  
+}
+.flex p {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.inputform {
+  margin-top: 1%;
+  display: inline-grid;
+}
+.pergunta {
+  line-height: 0;
+  margin-top: 2%;
+  font-size: 20px;
+}
+.enviar {
+  width: 33.5%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    background: #272626;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: 0.3 ease-in-out;
+}
+.enviar:hover {
+    font-weight: 900;
+    background-color: gray;
+}
+
+.checkRadioButton {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: center;
+    margin: 3px;
+}
+.classnone {
+  display: none !important;
+}
+.invalido {
+  border: 3px solid red;
+}
+.msgValidacao {
+  color: red;
+  font-size: 12px;
+  text-align: left;
+  margin-right: 28.5%;
+}
+
+.fa1 {
+  padding: 20px;
+  font-size: 30px !important;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+      color: aliceblue !important;
+}
+
+.fa1:hover {
+  opacity: 0.7;
+}
+
+
+.fa1-facebook {
+  background: #f3ecec;
+  color: #fbf9f9 !important;
+   width: 50px;
+  border-radius: 150px;
+  font-size: 30px;
+}
+
+.fa1-twitter {
+  background: #eff3f5;
+  color: white;
+  width: 50px;
+  border-radius: 150px;
+}
+.fa1-instagram {
+  background: #f4f5f5;
+  color: white;
+   width: 50px;
+  border-radius: 150px;
+}
+
